@@ -1,0 +1,204 @@
+$color1: rgb(0, 59, 55);
+$color2: rgb(17, 104, 138);
+$fuente1: 'Poiret One',
+cursive;
+$fuente2: 'M PLUS 1p',
+sans-serif;
+$fuente3: 'Bad Script',
+cursive;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Antic+Slab&family=Bad+Script&family=Cookie&family=Courgette&family=Dancing+Script:wght@600&family=Great+Vibes&family=Krub&family=Laila&family=M+PLUS+1p&family=Michroma&family=Montserrat&family=PT+Sans+Caption&family=Playball&family=Poiret+One&family=Quicksand&family=Quintessential&family=Reem+Kufi:wght@700&family=Rochester&family=Skranji&family=Telex&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: $color1;
+    font-family: $fuente1;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/montevideo-3603950.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    color: whitesmoke;
+    font-family: $fuente3;
+    text-align: center;
+    margin: 0;
+
+    h1 {
+        font-size: 320%;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    p {
+        font-size: 150%;
+        text-shadow: 2px 2px 2px black;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+        font-weight: bold;
+        font-size: 133%;
+        font-family: $fuente1;
+        text-shadow: 2px 2px 2px black;
+    }
+}
+
+h2 {
+    font-family: $fuente1;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 5%;
+    color: rgb(0, 59, 55);
+    text-shadow: 2px 2px 2px whitesmoke;
+    text-align: center;
+}
+
+.nder {
+    background-image: url(./img/rambla.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nizq {
+    background-color: #fdfbff;
+    background-color: #dfedec;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%2326605c' fill-opacity='0.22'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
+    p {
+        text-align: justify;
+        padding: 4%;
+        padding-bottom: 0;
+    }
+}
+
+section {
+    background-image: url(./img/ramblaverde.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.ser {
+    background-color: rgba(0, 0, 0, 0.801);
+    height: 500px;
+    overflow: hidden;
+
+    h3 {
+        text-transform: uppercase;
+        text-align: center;
+        color: whitesmoke;
+        padding-top: 3%;
+        text-shadow: 5px 5px 5px black;
+    }
+
+    p {
+        padding-top: 2%;
+        padding-bottom: 3%;
+        text-align: justify;
+        color: whitesmoke;
+    }
+
+    span {
+        color: whitesmoke;
+        text-shadow: 2px 2px 2px rgb(0, 0, 0);
+        font-size: 220%;
+    }
+
+}
+
+.fizq {
+    background-image: url(./img/alto.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
+
+.fder {
+    text-align: justify;
+    font-family: $fuente2;
+    background-color: #fdfbff;
+    background-color: #fdfbff;
+    background-color: #dfedec;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%2326605c' fill-opacity='0.22'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+
+    h4 {
+        padding-top: 10px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: $fuente1;
+        font-weight: 900;
+        letter-spacing: 7px;
+        text-decoration: underline;
+    }
+
+    p {
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width:425px ) {
+    .fizq{
+        display: none;
+    }
+    
+}
+
+h5{
+    color: whitesmoke;
+    font-family: $fuente1;
+    font-size: 220%;
+    padding-top: 5px;
+}
+
+form {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/montevideo-3603950.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: $fuente2;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(69, 200, 252);
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 100px;
+}
+
+footer {
+    height: auto;
+    width: 100%;
+    background-color: $color1;
+    text-align: center;
+    font-size: 22px;
+    font-family: $fuente1;
+}
+
+footer p {
+    color: whitesmoke;
+    letter-spacing: 3px;
+    
+}
+
+.redes a {
+    letter-spacing: 20px;
+    color: skyblue;
+    text-align: center;
+    font-size: 120%;
+}
+
+.redes a:hover {
+    color: aliceblue;
+}
